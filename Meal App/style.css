@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C135C;
+}
+.heading{
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form{
+    margin-top: 20px;
+    width: 40%;
+    color: black;
+    margin-left: 300px;
+}
+
+#input[type="text"]{
+width: 250px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: 500;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+padding: 5px;
+
+
+}
+
+.search{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -6px;
+    width: 10%;
+    padding: 2px;
+    color:brown;
+    padding: 5px;
+}
+.random{
+    padding: 2px;
+  margin-top: 5px;
+}
+
+.meals{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 150px;
+margin-top: 30px;
+
+}
+
+.meal{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+cursor: pointer;
+margin: 30px;
+font-size:larger;
+font-style: italic;
+color: white;
+
+}
+.show-error{
+    color:white
+  }
+.meal-img{ 
+    width: 100%;
+    height: 100%;
+    border: 4px #fff solid;
+    border-radius: 2px;
+    
+}
+.rand-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 100px;
+    margin-left: -100px;
+    position: relative;
+}
+#rand-img{
+    width: 30%;
+    height: 30%;
+    border: 4px #fff solid;
+    border-radius: 2px;
+}
+.rand-meal{
+    cursor: pointer;
+    margin: 30px;
+    font-size: larger;
+    font-style: italic;
+    color: white;
+}
+.rand-heading{
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: block;
+    position: absolute;
+    top: -60px;
+    font-size:medium;
+}
+
+.filtered{
+    display: none;
+}
